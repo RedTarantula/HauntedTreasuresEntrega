@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &329367931138779716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7941749683239819868}
+  - component: {fileID: 7575066201786560889}
+  - component: {fileID: 2592597402596997568}
+  m_Layer: 0
+  m_Name: SFXSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7941749683239819868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329367931138779716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7575066201786560889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329367931138779716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841b72de2996c5c40bfb394f3d0e0a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks:
+  - {fileID: 2592597402596997568}
+  InitializationMode: 2
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  DurationMultiplier: 1
+  DisplayFullDurationDetails: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  CanPlayWhileAlreadyPlaying: 1
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRevert:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
+--- !u!114 &2592597402596997568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329367931138779716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c8acfc07fee664da6ad222b6541a44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: MMSoundManager Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0
+    CooldownDuration: 0
+    ExcludeFromHoldingPauses: 0
+    InterruptsOnStop: 1
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    MMFeedbacksDirectionCondition: 0
+    PlayDirection: 0
+    ConstantIntensity: 0
+    UseIntensityInterval: 0
+    IntensityIntervalMin: 0
+    IntensityIntervalMax: 0
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 8300000, guid: 41e1544cf0bc93448bf7aa53904d99c1, type: 3}
+  RandomSfx:
+  - {fileID: 8300000, guid: 41e1544cf0bc93448bf7aa53904d99c1, type: 3}
+  - {fileID: 8300000, guid: a6a748419e76ec749b4b7a775d070d35, type: 3}
+  - {fileID: 8300000, guid: 3e156945cf428444a9e757093c91be4d, type: 3}
+  - {fileID: 8300000, guid: 84288c15e5ff87a419b857e47516ec53, type: 3}
+  - {fileID: 8300000, guid: b6f579610d1decf4eafd936235b93aaa, type: 3}
+  - {fileID: 8300000, guid: df12804e1acb286408c06770e6225acc, type: 3}
+  - {fileID: 8300000, guid: aff13e98d7841fd4c8bf1f84a8631c57, type: 3}
+  - {fileID: 8300000, guid: c9a51eb4eb145c7459e0abbad0c4841c, type: 3}
+  - {fileID: 8300000, guid: 5dbbf9b1a2f7202459a6364e79dd6e02, type: 3}
+  - {fileID: 8300000, guid: d97741509319d8740977c946e6df67bc, type: 3}
+  - {fileID: 8300000, guid: 306a1240a34e8ed4693c225f7a375876, type: 3}
+  - {fileID: 8300000, guid: 463d5f8dccd14f74586ec647c76d7d39, type: 3}
+  - {fileID: 8300000, guid: 5de4fef50770370488f400f550f548b6, type: 3}
+  - {fileID: 8300000, guid: 040c524ec684334449624fedf1d2cf58, type: 3}
+  - {fileID: 8300000, guid: 5ee035317ecd24348970f2e47e057d5d, type: 3}
+  - {fileID: 8300000, guid: 34f6c14ddf03d944d882eafaae78e453, type: 3}
+  - {fileID: 8300000, guid: 3c5e1113823ccd3458eaa66e233f74aa, type: 3}
+  - {fileID: 8300000, guid: e31fe836da5887e41a342befb9d9ecfe, type: 3}
+  - {fileID: 8300000, guid: b8ec0b3f4657a324b98653cd67a8cce8, type: 3}
+  - {fileID: 8300000, guid: cbbe590f4fc088342a62a7fcc8bf8b1b, type: 3}
+  - {fileID: 8300000, guid: 450d4cc347a5a2147b2b021a187c60e4, type: 3}
+  - {fileID: 8300000, guid: 1863c10b4aad6124b81e453a1fa9aa10, type: 3}
+  - {fileID: 8300000, guid: 4ce2afae967de5c4b8b8f981ac0439d1, type: 3}
+  - {fileID: 8300000, guid: 6b833c5990ca8394abb26f3dba8aa6ba, type: 3}
+  - {fileID: 8300000, guid: 70344bcb043045f48a5b99ac384e1653, type: 3}
+  - {fileID: 8300000, guid: e5f10c7460df0cb4bb4392f45aa24f1b, type: 3}
+  - {fileID: 8300000, guid: 167092add2177f6498a5cff17d1acc1f, type: 3}
+  - {fileID: 8300000, guid: 27793cafcd56b2f4b8fe68cf60ea093f, type: 3}
+  TestButton: 0
+  TestStopButton: 0
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  MmSoundManagerTrack: 0
+  ID: 0
+  AudioGroup: {fileID: 0}
+  RecycleAudioSource: {fileID: 0}
+  Loop: 0
+  Persistent: 0
+  DoNotPlayIfClipAlreadyPlaying: 0
+  Fade: 0
+  FadeInitialVolume: 0
+  FadeDuration: 1
+  FadeTween:
+    MMTweenDefinitionType: 0
+    MMTweenCurve: 9
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  SoloSingleTrack: 0
+  SoloAllTracks: 0
+  AutoUnSoloOnEnd: 0
+  PanStereo: 0
+  SpatialBlend: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  Priority: 0
+  ReverbZoneMix: 0
+  DopplerLevel: 0
+  Spread: 0
+  RolloffMode: 0
+  MinDistance: 0
+  MaxDistance: 0

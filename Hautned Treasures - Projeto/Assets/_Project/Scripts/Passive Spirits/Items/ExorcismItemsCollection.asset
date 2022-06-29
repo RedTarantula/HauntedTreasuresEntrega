@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c690f755dca84245a5b3811d97e43e9e, type: 3}
+  m_Name: ExorcismItemsCollection
+  m_EditorClassIdentifier: Assembly-CSharp:_Project.Scripts.Exorcism:ExorcismItemsCollection
+  belongings:
+  - itemName: Plush Animal
+    itemPrefab: {fileID: 2573094135555848089, guid: 4353e7920bf06244eafa7ebbc2b796e8,
+      type: 3}
+    possibleHints:
+    - A life made out of fabric
+    - Often found in the bedroom
+    - A toy, a collectible, or an aid to a soul in need of a hug
+    - Souless, but given a soul to
+    - Some outgrow it, but some still find confort in
+    - Can be small enough to fit in your hand, or large enough to take up an entire
+      bed
+    itemType: 1
+    movementPenalty: 0.2
+    rotationInHands: {x: 0, y: 0, z: 0, w: 0}
+  - itemName: Pearl Necklace
+    itemPrefab: {fileID: 4470749661958061148, guid: 2787ce0d036a53045b8f3185cd0d6f01,
+      type: 3}
+    possibleHints:
+    - Usually white, black, or pink
+    - A symbol of beauty and purity
+    - Found in freshwater or saltwater
+    - Often handed down from generation to generation
+    - It is worn by those in search for elegance
+    itemType: 1
+    movementPenalty: 0.2
+    rotationInHands: {x: 0, y: 0, z: 0, w: 1}
+  - itemName: Carved Plane
+    itemPrefab: {fileID: 3336301385841886947, guid: cf7f89aae78ac9847b5270259919fb6d,
+      type: 3}
+    possibleHints:
+    - Brings a smile to any child's face
+    - It is as free as a bird
+    - Smooth to the touch
+    - Has wings and a tail
+    - Carved from wood
+    itemType: 1
+    movementPenalty: 0.2
+    rotationInHands: {x: 0, y: 0, z: 0, w: 0}
+  - itemName: Diary
+    itemPrefab: {fileID: 3984792783525704799, guid: f0191e0a7697a5b409e0850682c5f1c5,
+      type: 3}
+    possibleHints:
+    - A place to vent and a creative outlet
+    - It tracks progress or growth
+    - It documents one's memories
+    - A tool for self-discovery
+    - It holds one's intmiacy on its pages
+    itemType: 1
+    movementPenalty: 0.2
+    rotationInHands: {x: 0, y: 0, z: 0, w: 0}
+  elementals:
+  - itemName: Fire
+    itemPrefab: {fileID: 342868177776974878, guid: 0ae1ec792abb6f3489724e40a4a1b7fe,
+      type: 3}
+    possibleHints:
+    - From flesh to charcoal
+    - Screams of agony
+    - From everything to nothing
+    - My ashes taken by the wind
+    itemType: 2
+    movementPenalty: 0.2
+    rotationInHands: {x: -0.6322276, y: -0.1045804, z: 0.08668405, w: 0.7627826}
+  - itemName: Water
+    itemPrefab: {fileID: 1448441154005443257, guid: c3f877ad25b7d1c44b071bc72666a549,
+      type: 3}
+    possibleHints:
+    - Surrounded by a deep blue
+    - Choking without a chance to scream
+    - Despair ran through me as strong as the currents
+    - My body became cold as I struggled to breath
+    itemType: 2
+    movementPenalty: 0.2
+    rotationInHands: {x: 0.020207226, y: 0.0012451103, z: 0.11964148, w: 0.9926107}
+  - itemName: Blood
+    itemPrefab: {fileID: 9137959304829182215, guid: 8a3001b99a06ab647916482c346f21e1,
+      type: 3}
+    possibleHints:
+    - I felt my life slipping away from me
+    - A pool of red surrounded my body
+    - Gushing out from me what should be kept inside
+    - The fluids of life ran down along with my last breath
+    itemType: 2
+    movementPenalty: 0.2
+    rotationInHands: {x: 0.5911042, y: -0.32883844, z: 0.34532365, w: 0.6505479}
+  - itemName: Death
+    itemPrefab: {fileID: 403669575692722177, guid: 8f979bd05f3dff74383c59949a3521f5,
+      type: 3}
+    possibleHints:
+    - I ran out of time, my cycle has come to an end
+    - Memories flickered through my mind as I took my last breath
+    - From the world my mind faded, leaving behind nothing but a shell
+    - No despair, pain, or fear, I finally met my peace
+    itemType: 2
+    movementPenalty: 0.2
+    rotationInHands: {x: -0.09707872, y: -0.5018502, z: -0.0067520663, w: 0.859463}
